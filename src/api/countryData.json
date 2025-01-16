@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "countryName": "USA",
+      "capital": "Washington DC",
+      "population": 331002651,
+      "interestingFact": "The US is home to the Grand Canyon."
+    },
+    {
+      "id": 2,
+      "countryName": "India",
+      "capital": "New Delhi",
+      "population": 1393409038,
+      "interestingFact": "India is the world's largest democracy."
+    },
+    {
+      "id": 3,
+      "countryName": "China",
+      "capital": "Beijing",
+      "population": 1444216107,
+      "interestingFact": "China has the largest population in the world."
+    },
+    {
+      "id": 4,
+      "countryName": "Germany",
+      "capital": "Berlin",
+      "population": 83783942,
+      "interestingFact": "Germany is famous for its beer and Oktoberfest."
+    },
+    {
+      "id": 5,
+      "countryName": "Japan",
+      "capital": "Tokyo",
+      "population": 126476461,
+      "interestingFact": "Japan has more than 6,800 islands."
+    },
+    {
+      "id": 6,
+      "countryName": "Brazil",
+      "capital": "Brasília",
+      "population": 213993437,
+      "interestingFact": "Brazil is home to the Amazon rainforest."
+    },
+    {
+      "id": 7,
+      "countryName": "Australia",
+      "capital": "Canberra",
+      "population": 25687041,
+      "interestingFact": "Australia is the smallest continent but the largest island."
+    },
+    {
+      "id": 8,
+      "countryName": "Russia",
+      "capital": "Moscow",
+      "population": 145912025,
+      "interestingFact": "Russia is the largest country in the world by area."
+    },
+    {
+      "id": 9,
+      "countryName": "France",
+      "capital": "Paris",
+      "population": 67391582,
+      "interestingFact": "France is the most visited country in the world."
+    },
+    {
+      "id": 10,
+      "countryName": "South Africa",
+      "capital": "Pretoria (executive), Bloemfontein (judicial), Cape Town (legislative)",
+      "population": 59308690,
+      "interestingFact": "South Africa has three capital cities."
+    }
+  ]
+  
