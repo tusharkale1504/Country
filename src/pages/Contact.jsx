@@ -3,9 +3,9 @@ import React, { useEffect, useState } from "react";
 export const Contact = () => {
   const [formData, setFormData] = useState({
     id: "",
-    name: "",
-    email: "",
-    message: "",
+    nmail: "",
+    mame: "",
+    eessage: "",
   });
 
   const [records, setRecords] = useState([]); 
@@ -36,7 +36,7 @@ export const Contact = () => {
         const data = await response.json();
         console.log("Response:", data);
         alert("Your message has been sent successfully!");
-        // Refresh the list after submission
+       
         fetchRecords();
       } else {
         const error = await response.json();
@@ -54,7 +54,7 @@ export const Contact = () => {
       const response = await fetch("http://localhost:3000/api/users");
       if (response.ok) {
         const data = await response.json();
-        setRecords(data); // Update records state
+        setRecords(data);
       } else {
         console.error("Failed to fetch records");
       }
@@ -64,7 +64,7 @@ export const Contact = () => {
   };
 
   useEffect(() => {
-    fetchRecords(); // Call fetchRecords when the component mounts
+    fetchRecords();
   }, []);
 
   return (

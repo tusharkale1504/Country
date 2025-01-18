@@ -1,4 +1,4 @@
-// import countryFlag from "../api/countryFlag.json";
+
 
 import countryData from "../api/countryFlag.json"
 export const Country = () => {

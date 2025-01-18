@@ -6,6 +6,7 @@ import { About } from "./pages/About";
 import { Country } from "./pages/Country";
 import { Contact } from "./pages/Contact";
 import { Product } from "./pages/Product";
+import { Category } from "./pages/Category";
 import { ErrorPage } from "./pages/ErrorPage";
 
 const router = createBrowserRouter([
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
       {
         path: "products",
         element: <Product />
+      },
+      {
+        path: "category",
+        element: <Category />
       },
     ],
 
